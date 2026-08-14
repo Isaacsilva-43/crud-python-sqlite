@@ -58,6 +58,9 @@ def menu():
 
     while True:
         print()
+        print('-' * 20)
+        print('CRUD DE JOGOS'.center(20))
+        print('-' * 20)
         cla = int(input('1 - cadastrar jogo\n'
                   '2 - Listar jogos\n'
                   '3 - atualizar jogo\n'
